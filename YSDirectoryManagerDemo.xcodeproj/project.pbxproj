@@ -13,6 +13,7 @@
 		52C51CB21DD964C200A3BB0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C51CB01DD964C200A3BB0C /* Main.storyboard */; };
 		52C51CB41DD964C200A3BB0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C51CB31DD964C200A3BB0C /* Assets.xcassets */; };
 		52C51CB71DD964C200A3BB0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C51CB51DD964C200A3BB0C /* LaunchScreen.storyboard */; };
+		52C51CC11DD9650D00A3BB0C /* YSDirectoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C51CC01DD9650D00A3BB0C /* YSDirectoryManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		52C51CB31DD964C200A3BB0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C51CB61DD964C200A3BB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52C51CB81DD964C200A3BB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C51CBF1DD9650D00A3BB0C /* YSDirectoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSDirectoryManager.h; sourceTree = "<group>"; };
+		52C51CC01DD9650D00A3BB0C /* YSDirectoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSDirectoryManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		52C51CA61DD964C200A3BB0C /* YSDirectoryManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				52C51CBE1DD9650D00A3BB0C /* Directory */,
 				52C51CAA1DD964C200A3BB0C /* AppDelegate.h */,
 				52C51CAB1DD964C200A3BB0C /* AppDelegate.m */,
 				52C51CAD1DD964C200A3BB0C /* ViewController.h */,
@@ -77,6 +81,15 @@
 				52C51CA81DD964C200A3BB0C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52C51CBE1DD9650D00A3BB0C /* Directory */ = {
+			isa = PBXGroup;
+			children = (
+				52C51CBF1DD9650D00A3BB0C /* YSDirectoryManager.h */,
+				52C51CC01DD9650D00A3BB0C /* YSDirectoryManager.m */,
+			);
+			path = Directory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 				52C51CAF1DD964C200A3BB0C /* ViewController.m in Sources */,
 				52C51CAC1DD964C200A3BB0C /* AppDelegate.m in Sources */,
 				52C51CA91DD964C200A3BB0C /* main.m in Sources */,
+				52C51CC11DD9650D00A3BB0C /* YSDirectoryManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
